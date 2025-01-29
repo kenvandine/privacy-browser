@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Privacy Browser</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="toolbar">
+    <button id="back">Back</button>
+    <button id="forward">Forward</button>
+    <button id="refresh">Refresh</button>
+    <button id="home">Home</button>
+    <input type="text" id="url" placeholder="Enter URL" />
+    <button id="go">Go</button>
+    <div class="dropdown">
+      <button class="dropButton">☰</button>
+      <div class="dropdown-content">
+        <a href="#" id="downloadsButton">Downloads</a>
+        <a href="#" id="aboutButton">About</a>
+      </div>
+    </div>
+  </div>
+  <div id="download-status" style="margin-top: 10px;"></div>
+  <div id="webview-container"></div>
+  <script src="renderer.js"></script>
+</body>
+</html>

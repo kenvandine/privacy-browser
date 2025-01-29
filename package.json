@@ -1,0 +1,39 @@
+{
+  "name": "privacy-browser",
+  "title": "Privacy Browser",
+  "version": "@@VERSION@@",
+  "description": "Privacy Browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish never"
+  },
+  "build": {
+    "asar": false,
+    "linux": {
+      "target": [
+        "dir"
+      ],
+      "category": "Utility",
+      "artifactName": "${name}_${version}_linux.${ext}"
+    },
+    "extraFiles": [
+      "com.github.kenvandine.${name}.desktop"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenvandine/privacy-browser.git"
+  },
+  "author": "Ken VanDine",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kenvandine/privacy-browser/issues"
+  },
+  "homepage": "https://github.com/kenvandine/privacy-browser#readme",
+  "devDependencies": {
+    "electron": "^33.3.2",
+    "electron-builder": "^25.1.8",
+    "electron-package": "^0.1.0"
+  }
+}

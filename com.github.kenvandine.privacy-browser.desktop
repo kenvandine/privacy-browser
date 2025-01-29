@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Privacy Browser
+Comment=Privacy Browser
+Type=Application
+Exec=privacy-browser
+Icon=${SNAP}/unpacked/resources/app/icon.png
+MimeType=application/json;application/pdf;application/rdf+xml;application/rss+xml;application/x-xpinstall;application/xhtml+xml;application/xml;audio/flac;audio/ogg;audio/webm;image/avif;image/gif;image/jpeg;image/png;image/svg+xml;image/webp;text/html;text/xml;video/ogg;video/webm;x-scheme-handler/chrome;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/mailto;
+Categories=Network;WebBrowser;
+Keywords=Internet;WWW;Browser;Web;Explorer;
